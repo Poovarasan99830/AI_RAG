@@ -1,0 +1,251 @@
+1. Python is a high-level, interpreted programming language widely used for web development, automation, AI, data science, and general-purpose programming.
+2. Python emphasizes readability, simplicity, and productivity.
+3. Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+4. The Zen of Python says: Beautiful is better than ugly, explicit is better than implicit, and simple is better than complex.
+5. Python variables do not require explicit data types; types are inferred at runtime.
+6. Python uses dynamic typing and automatic memory management.
+7. Python’s built-in data types include int, float, bool, str, list, tuple, set, dict.
+8. A Python list is mutable, ordered, and indexable.
+9. A tuple is immutable and ordered.
+10. A set is unordered and unique.
+11. A dictionary stores key-value pairs.
+12. Python functions are defined using the def keyword.
+13. Python supports default, keyword, and variable-length arguments.
+14. Lambda functions are small anonymous functions defined with lambda keyword.
+15. Python uses indentation instead of braces to define blocks.
+16. Control flow includes if, elif, else statements.
+17. Looping uses for and while loops.
+18. Python provides break, continue, and pass for loop control.
+19. List comprehensions allow compact creation of lists.
+20. Dictionary comprehensions exist for dictionaries.
+21. Python modules are files containing Python code.
+22. A package is a folder with __init__.py containing modules.
+23. Python uses pip to install external libraries.
+24. Virtual environments isolate project dependencies.
+25. Python exceptions handle errors using try, except, finally.
+26. You can raise exceptions manually using raise keyword.
+27. Custom exceptions allow more precise error handling.
+28. File handling uses open() with read, write, append modes.
+29. With context manager automatically closes files.
+30. Python OOP supports classes and objects.
+31. __init__ method initializes object state.
+32. Self refers to current instance.
+33. Python supports encapsulation, inheritance, and polymorphism.
+34. Single inheritance involves one parent class.
+35. Multiple inheritance includes multiple parent classes.
+36. Multilevel inheritance builds layers of inheritance.
+37. Method overriding allows child class to replace parent method.
+38. Super() method calls parent class method.
+39. Class variables are shared across instances.
+40. Instance variables are unique to each object.
+41. Python supports decorators to modify functions.
+42. A decorator is a function returning another function.
+43. @property decorator converts a method into a read-only attribute.
+44. Static methods use @staticmethod and do not need self.
+45. Class methods use @classmethod and take cls parameter.
+46. Python’s standard library includes modules for math, os, sys, datetime, random.
+47. Python has built-in support for JSON with json module.
+48. Python supports HTTP requests using requests library.
+49. APIs allow communication between software systems.
+50. REST API uses GET, POST, PUT, DELETE operations.
+51. Flask is a lightweight microframework for building APIs.
+52. Django is a full-featured web framework for large applications.
+53. Flask route decorator defines URL endpoints.
+54. Django uses models, views, templates for MVC architecture.
+55. Django ORM handles database operations.
+56. SQL databases use structured tables.
+57. MySQL is a relational database commonly used in Python apps.
+58. PostgreSQL is another relational database supporting advanced features.
+59. SQLite is a lightweight embedded database.
+60. SQL SELECT retrieves data.
+61. SQL INSERT adds records.
+62. SQL UPDATE modifies existing records.
+63. SQL DELETE removes records.
+64. SQL JOIN combines rows from multiple tables.
+65. INNER JOIN returns matching rows.
+66. LEFT JOIN returns all left rows and matched right rows.
+67. RIGHT JOIN returns all right rows.
+68. FULL JOIN returns all rows from both tables.
+69. Indexes speed up searching in large tables.
+70. Primary key uniquely identifies rows.
+71. Foreign key links two related tables.
+72. One-to-one relationships connect one record to one record.
+73. One-to-many relationships connect one parent to many children.
+74. Many-to-many relationships need a junction table.
+75. Stored procedures encapsulate SQL logic.
+76. Views are virtual tables based on queries.
+77. Triggers run automatically when events occur in database.
+78. Transactions ensure ACID properties in SQL.
+79. NoSQL databases store unstructured data.
+80. MongoDB stores JSON-like documents.
+81. Firebase stores real-time NoSQL data.
+82. Redis is an in-memory cache used for speed.
+83. LLM stands for Large Language Model.
+84. LLMs like GPT, Llama, Mistral process human-like text.
+85. LLMs use transformers architecture.
+86. Transformers use attention mechanism for context.
+87. Embeddings convert text into numeric vectors.
+88. Semantic search finds meaning instead of exact words.
+89. RAG stands for Retrieval Augmented Generation.
+90. RAG uses vector search + LLM output.
+91. In RAG, embeddings are created from documents.
+92. Documents are split into chunks before embedding.
+93. Vector database stores embeddings.
+94. Popular vector DBs include ChromaDB, FAISS, Pinecone.
+95. During a query, text is embedded into vector.
+96. Vector DB finds similar embeddings.
+97. Top matching chunks become context for LLM.
+98. LLM produces final answer using context.
+99. This ensures factual accuracy and reduces hallucination.
+100. ChromaDB stores embeddings locally in persistent databases.
+101. Each record in Chroma has id, embedding, document text, metadata.
+102. Embedding dimensions depend on the model used.
+103. Llama 3 embedding dimensions vary by version.
+104. GPT models have different embedding sizes.
+105. Offline LLMs run locally without internet using Ollama.
+106. Ollama can host models like Llama, Mistral, Gemma.
+107. Ollama supports embedding and chat APIs.
+108. Online LLMs run on cloud (OpenAI, Anthropic, Google).
+109. Offline LLMs provide privacy and cost savings.
+110. Online LLMs provide highest accuracy.
+111. Hybrid LLM systems combine both.
+112. Embedding models do not generate normal text; they convert text → numbers.
+113. LLM models generate natural language responses.
+114. RAG systems must choose appropriate chunk size.
+115. Chunk size of 300–500 tokens is commonly used.
+116. Chunk overlap prevents context loss.
+117. Overlap 50–100 tokens is ideal.
+118. Preprocessing includes cleaning, trimming whitespace, removing HTML.
+119. Tokenizing splits text into tokens.
+120. Vector search uses cosine similarity or Euclidean distance.
+121. Cosine similarity measures angle between vectors.
+122. Closer vectors = similar meaning.
+123. Embedding models must be consistent for indexing and search.
+124. Using different embedding models breaks vector matching.
+125. Production RAG requires caching.
+126. Caching reduces repeated embedding operations.
+127. Redis cache improves speed.
+128. API gateway controls access to RAG system.
+129. Rate limiting protects servers.
+130. Authentication ensures secure access.
+131. JWT tokens are common authentication method.
+132. Logging is essential for debugging.
+133. Monitoring tracks performance.
+134. LLM observability tools include Langfuse, Phoenix.
+135. Prompt engineering improves output.
+136. Prompts should specify role, rules, and examples.
+137. System prompts define model behavior.
+138. Few-shot prompts show examples for better accuracy.
+139. Guardrails prevent harmful outputs.
+140. Guardrail libraries include Guardrails AI and NeMo Guardrails.
+141. Output validation ensures correct formatting.
+142. RAG pipelines can be synchronous or asynchronous.
+143. Async improves parallel processing.
+144. Python asyncio enables async operations.
+145. Pipelines must handle large files.
+146. Files can be split into chunks using simple Python functions.
+147. PDF parsing uses PyPDF2 or pdfplumber.
+148. HTML parsing uses BeautifulSoup.
+149. Text extraction must remove noise.
+150. RAG files may include articles, documentation, code.
+151. Code blocks require special handling to prevent LLM errors.
+152. Token limits affect how much context LLM can handle.
+153. GPT-4/5 have very high token limits.
+154. Llama 3 supports large token windows.
+155. Mistral models also support long context.
+156. Long context allows more chunks as input.
+157. Vector database growth must be monitored.
+158. Re-indexing may be needed over time.
+159. Backups protect against data loss.
+160. Using persistent storage ensures durability.
+161. SQLite storage is common for local embedding databases.
+162. FAISS supports fast in-memory vector search.
+163. Pinecone is cloud-managed vector DB.
+164. Qdrant is another popular vector DB.
+165. Elasticsearch supports vector search.
+166. Weaviate is cloud-native vector engine.
+167. GPU acceleration speeds up LLM inference.
+168. CPU inference is slower but cheaper.
+169. Quantization reduces model size.
+170. GGUF format is used for offline quantized models.
+171. Ollama supports GGUF models.
+172. GPU VRAM determines maximum model size.
+173. Llama 3 requires 6–16 GB VRAM depending on size.
+174. 7B models lighter than 70B models.
+175. Larger models = better accuracy.
+176. Smaller models = faster and cheaper.
+177. Production-ready chatbots need speed + accuracy.
+178. Hybrid retrieval improves reliability.
+179. Multi-vector search improves ranking.
+180. Advanced RAG uses rerankers.
+181. Reranker LLM ranks search results better.
+182. Cross-encoder rerankers use deep models.
+183. Bi-encoder models compute embeddings.
+184. Context-window compression reduces tokens.
+185. Summarization condenses large chunks.
+186. LLMs can summarize or extract key points.
+187. Smart chunking splits based on headings.
+188. Markdown-based splitting preserves sections.
+189. Code-block-aware splitting helps developers.
+190. Adaptive chunking uses ML to decide chunk sizes.
+191. Vector deduplication removes duplicate embeddings.
+192. Garbage collection clears unused vectors.
+193. Chroma client reset wipes database.
+194. Windows may lock files during deletion.
+195. Close all Chroma connections before deletion.
+196. RAG query pipeline:
+197. - Receive user query
+198. - Convert query to embedding
+199. - Search vector DB
+200. - Retrieve top chunks
+201. - Combine chunks
+202. - Send to LLM
+203. - LLM generates answer
+204. RAG improves reliability and trustworthiness.
+205. RAG reduces hallucination compared to raw LLM.
+206. LLM fine-tuning adjusts behavior using custom data.
+207. Fine-tuning requires GPUs and datasets.
+208. Parameter-efficient tuning includes LoRA, QLoRA.
+209. Fine-tuning is not same as RAG.
+210. Fine-tuned model memorizes training set.
+211. RAG retrieves real-time data.
+212. Both RAG and fine-tuning can be combined.
+213. Offline LLMs cannot access internet.
+214. Online LLMs can fetch real-time updates.
+215. Combining offline embeddings + cloud LLM is common.
+216. Embedding vectors are long floating-point arrays.
+217. LLM generates textual output.
+218. Embedding model must stay consistent with stored vectors.
+219. Using GPT embeddings with Llama search leads to mismatch.
+220. ChromaDB stores metadata along with vectors.
+221. Metadata helps filter results.
+222. Filtering enables category-based search.
+223. Date filtering helps time-based retrieval.
+224. Weighted scoring ranks more important chunks higher.
+225. Chunk tagging improves retrieval accuracy.
+226. Document ranking helps organize results.
+227. Embedding quality affects RAG accuracy.
+228. Low-quality embeddings → wrong results.
+229. Newer models produce better embeddings.
+230. OpenAI’s text-embedding-3-large is very strong.
+231. Llama embedding quality improving.
+232. Mistral embedding tends to be compact.
+233. Embedding dimension impacts storage.
+234. Higher dimension = more accurate search.
+235. Lower dimension = faster search.
+236. RAG system must be scalable.
+237. Horizontal scaling adds more servers.
+238. Vertical scaling adds more CPU/GPU power.
+239. Kubernetes helps deploy large RAG apps.
+240. Docker is used for containerization.
+241. Nginx handles reverse proxying.
+242. Cloud services include AWS, GCP, Azure.
+243. Serverless deployment reduces cost.
+244. Lambda functions handle lightweight tasks.
+245. Event-driven architecture improves performance.
+246. Vector DB must support concurrency.
+247. Locking issues common on Windows.
+248. Linux recommended for production RAG.
+249. Logging helps monitor query latency.
+250. Slow queries require optimization.
+
