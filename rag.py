@@ -36,7 +36,6 @@ print("✔ Ready to create new DB.")
 # OLLAMA SETTINGS
 # --------------------------------------
 OLLAMA_URL = "http://localhost:11434/api"
-
 EMBED_MODEL = "nomic-embed-text"
 CHAT_MODEL = "llama3"
 
