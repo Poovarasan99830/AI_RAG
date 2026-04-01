@@ -4,7 +4,7 @@ import os
 
 DB_PATH = "db"
 
-# Try to close existing connections safely
+# Try to close existing connections safely.
 try:
     client = chromadb.PersistentClient(path=DB_PATH)
     client.reset()
